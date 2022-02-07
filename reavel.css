@@ -1,0 +1,9 @@
+.reavel {
+    transform: translateY(170px);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+.reavel-active {
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,88 @@
+$('#home').click(function(){
+    $("#home").addClass("info");
+    $("#order").removeClass("info");
+    $("#company").removeClass("info");
+    $("#faq").removeClass("info");
+    $("#contact").removeClass("info");
+});
+$('#order').click(function(){
+    $("#home").removeClass("info");
+    $("#order").addClass("info");
+    $("#company").removeClass("info");
+    $("#faq").removeClass("info");
+    $("#contact").removeClass("info");
+});
+$('#company').click(function(){
+    $("#home").removeClass("info");
+    $("#order").removeClass("info");
+    $("#company").addClass("info");
+    $("#faq").removeClass("info");
+    $("#contact").removeClass("info");
+});
+$('#faq').click(function(){
+    $("#home").removeClass("info");
+    $("#order").removeClass("info");
+    $("#company").removeClass("info");
+    $("#faq").addClass("info");
+    $("#contact").removeClass("info");
+});
+$('#contact').click(function(){
+    $("#home").removeClass("info");
+    $("#order").removeClass("info");
+    $("#company").removeClass("info");
+    $("#faq").removeClass("info");
+    $("#contact").addClass("info");
+});
+
+$('#btt').click(function(){
+    $("#btt").addClass("btn-active");
+    $("#tbt").removeClass("btn-active");
+    $("#ttb").removeClass("btn-active");
+});
+$('#tbt').click(function(){
+    $("#btt").removeClass("btn-active");
+    $("#tbt").addClass("btn-active");
+    $("#ttb").removeClass("btn-active");
+});
+$('#ttb').click(function(){
+    $("#btt").removeClass("btn-active");
+    $("#tbt").removeClass("btn-active");
+    $("#ttb").addClass("btn-active");
+});
+
+
+$('#homew').click(function(){
+    $("#homew").addClass("info");
+    $("#orderw").removeClass("info");
+    $("#companyw").removeClass("info");
+    $("#faqw").removeClass("info");
+    $("#contactw").removeClass("info");
+});
+$('#orderw').click(function(){
+    $("#homew").removeClass("info");
+    $("#orderw").addClass("info");
+    $("#companyw").removeClass("info");
+    $("#faqw").removeClass("info");
+    $("#contactw").removeClass("info");
+});
+$('#companyw').click(function(){
+    $("#homew").removeClass("info");
+    $("#orderw").removeClass("info");
+    $("#companyw").addClass("info");
+    $("#faqw").removeClass("info");
+    $("#contactw").removeClass("info");
+});
+$('#faqw').click(function(){
+    $("#homew").removeClass("info");
+    $("#orderw").removeClass("info");
+    $("#companyw").removeClass("info");
+    $("#faqw").addClass("info");
+    $("#contactw").removeClass("info");
+});
+$('#contactw').click(function(){
+    $("#homew").removeClass("info");
+    $("#orderw").removeClass("info");
+    $("#companyw").removeClass("info");
+    $("#faqw").removeClass("info");
+    $("#contactw").addClass("info");
+});
